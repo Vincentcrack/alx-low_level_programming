@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
+
+
 /**
  * main - Entry point
- *
+ * - Dora korpar, 2015-10-19
  * Description: display output without using printf name, puts name.
- *
+ * then a new line to thestandard error
  * Return: Always 0
  */
 int main(void)
