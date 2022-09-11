@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry point
+ * main - Entry poin
  *
- * Description outputs the standard error without the use of printf
+ * Descriptiont: outputs to the standard error
  *
  * Return: 1
- * /
-  int main(void)
- {
-	 write(2, "and that piece of art is useful\" - Dora Korpa, 2015-10-19"' 59);
-	 return (1);
- }
+ */
+int main(void)
+{
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	return (1);
+}
