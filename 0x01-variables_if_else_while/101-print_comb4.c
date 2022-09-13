@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-int mai (void)
+int main(void)
 {
 	int num1, num2, num3;
 
