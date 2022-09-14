@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _abs - the fuction
  * @n: the int to check
