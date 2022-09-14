@@ -11,7 +11,7 @@ int main(void)
 
 	while (i < 98)
 	{
-		x = a = b;
+		x = a + b;
 		a = b;
 		b = x;
 		printf("%lu", x);
