@@ -6,7 +6,7 @@
  * 3 and 5 below 1024
  * Return: 0
  */
-int void main(void)
+int main(void)
 {
 	int c = 0;
 	int sum = 0;
