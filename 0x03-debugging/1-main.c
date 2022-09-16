@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  * main - causes an infinite loop
- * Description: stops the infinite lopp
+ * Description: stops the infinite loop
  * Return: 0
- */
+ * */
 int main(void)
 {
 	int i;
@@ -11,7 +11,8 @@ int main(void)
 	printf("infinite loop incoming :(\n");
 
 	i = 0;
-/**
+
+/**	
 * don't delete it!
 *	while (i > 10)
 *	{
