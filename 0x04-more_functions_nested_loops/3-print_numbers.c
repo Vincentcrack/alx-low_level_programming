@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - check the code
- * Return: 0
+ * print_numbers - print  0 - 9
+ *
+ * Return: void
  */
+
 void print_numbers(void)
 {
 	char a = 0;
