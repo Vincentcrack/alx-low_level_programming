@@ -5,7 +5,7 @@
  * @a: int type
  * @n: int type
  * Description: numbers must be sepersted by comma
- * Numbers should be displayed 
+ * Numbers should be displayed
  * You can only use _putchar to print.
  */
 void print_array(int *a, int n)
