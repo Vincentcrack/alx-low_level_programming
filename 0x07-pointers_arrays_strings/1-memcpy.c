@@ -2,7 +2,8 @@
 /**
  * _memcpy - copies mem
  * @dest: char to check
- * @src: unsigned int
+ * @n: unsigned int
+ * @src: char to check
  * Return: 0
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
