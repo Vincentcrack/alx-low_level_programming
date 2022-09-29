@@ -24,7 +24,7 @@ char *_ultima(char *s)
 	if (*s != '\0')
 		return (_ultima(++s));
 	else
-		rturn (--s);
+		return (--s);
 }
 /**
  * is_palindrome - the given function
@@ -36,5 +36,5 @@ int is_palindrome(char *s)
 {
 	char *p;
 	p = _ultima(s);
-	return (_comparacadena(s, p))
+	return (_comparacadena(s, p));
 }
