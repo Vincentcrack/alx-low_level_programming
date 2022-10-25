@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * print_listint - print elements of a singly liked list.
@@ -8,15 +7,14 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	const listint_t *tp;
-	unsigned int cntr = 0;
+	const listint_t *cursor = h;
+	size_t count = 0;
 
-	tp = h
-	while (tp)
+	while (cursor != NULL)
 	{
-		printf("%d\n", tp->n);
-		cntr++;
-		tp = tp->next;
+		printf("%d\n", cursor->n);
+		count += 1;
+		cursor = cursor->next;
 	}
-	return (cntr);
+	return (count);
 }
